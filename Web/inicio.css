@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f7e2f7;
+  box-sizing: border-box;
+}
+
+div,
+header,
+nav,
+ul,
+li,
+p,
+img {
+  box-sizing: border-box;
+}
+
+/*FONDO / OVERLAY / H1 / H2*/
+
+.header {
+  min-height: 100dvh;
+  box-sizing: border-box;
+  background: url(./source/images/eslogan.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.overlay {
+  min-height: 100dvh;
+  width: 100%;
+  background-color: rgb(255, 125, 125, 0.5);
+  position: absolute;
+  z-index: 1;
+}
+
+.header__portada {
+  position: absolute;
+  z-index: 10;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-top: 50%;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+  text-wrap: balance;
+}
+
+/* MENU LISTA*/
+
+.nav {
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  background-color: rgb(247, 226, 247, 0.7);
+}
+
+.nav__menu--ul {
+  list-style-type: none;
+  padding: 50px;
+  margin: 0;
+  display: flex;
+  font-weight: 100;
+  font-size: 2.4rem;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 45px #000;
+}
+
+.nav__item--li {
+}
+
+.maccanails {
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+/*DIFERENTES ESTILOS*/
+
+.main__estilos {
+  padding: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.main__estilos--producto {
+}
+
+.main__estilos--producto img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 8px solid hsl(0, 25%, 78%);
+  box-shadow: 0px 0px 20px hsl(0, 32%, 67%);
+}
+
+main {
+  padding-top: 40px;
+}
